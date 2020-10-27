@@ -3,53 +3,100 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Wisp</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
   </head>
   <body>
-    <section class="section">
-        <div class="container">
-          <h1 class="title">Hello</h1>
-          <h2 class="subtitle">
-            Welcome to the World Wide Web
-          </h2>
-        </div>
-    </section>
-  	<div class="tile is-ancestor">
+  	<div class="tile is-ancestor notification is-dark">
   		<div class="tile is-parent is-vertical">
-  			<div class="tile is-child">
+  			<div class="tile is-child notification is-dark">
+          <section class="section is-danger">
+              <div class="container">
+                <h1 class="title">Hello</h1>
+                <h2 class="subtitle">
+                  Welcome to the World Wide Web
+                </h2>
+              </div>
+          </section>
   			</div>
-        <div class="tile is-parent">
+        <div class="tile is-parent notification is-dark">
           <div class="tile is-child box notification is-danger">
-            <button class="button is-dark is-large">
-              <span class="icon">
-                <i class="fab fa-reddit"></i>
-              </span>
-            </button>
-            <button class="button is-dark is-large">
-              <span class="icon">
-                <i class="fas fa-envelope"></i>
-              </span>
-            </button>
-            <button class="button is-dark is-large">
-              <span class="icon">
-                <i class="fab fa-youtube"></i>
-              </span>
-            </button>
-            <button class="button is-dark is-large">
-              <span class="icon">
-                <i class="fas fa-mug-hot"></i>
-              </span>
-            </button>
-            <button class="button is-dark is-large">
-              <span class="icon">
-                <i class="fab fa-twitch"></i>
-              </span>
-            </button>
+            <div class="buttons">
+              <button class="button is-dark is-large is-fullwidth" onclick ="location.href='https://reddit.com'">
+                <span class="icon">
+                  <i class="fab fa-reddit"></i>
+                </span>
+                <span>
+                  Reddit
+                </span>
+              </button>
+              <button class="button is-dark is-large is-fullwidth" onclick ="location.href='https://gmail.com'">
+                <span class="icon">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span>
+                  Gmail
+                </span>
+              </button>
+              <button class="button is-dark is-large is-fullwidth" onclick ="location.href='https://youtube.com'">
+                <span class="icon">
+                  <i class="fab fa-youtube"></i>
+                </span>
+                <span>
+                  Youtube
+                </span>
+              </button>
+              <button class="button is-dark is-large is-fullwidth" onclick ="location.href='https://netflix.com'">
+                <span class="icon">
+                  <i class="fas fa-mug-hot"></i>
+                </span>
+                <span>
+                  Netflix
+                </span>
+              </button>
+              <button class="button is-dark is-large is-fullwidth" onclick ="location.href='https://twitch.tv'">
+                <span class="icon">
+                  <i class="fab fa-twitch"></i>
+                </span>
+                <span>
+                  Twitch
+                </span>
+              </button>
+              <button class="button is-dark is-large is-fullwidth" onclick ="location.href='https://hbomax.com'">
+                <span class="icon">
+                  <i class="fas fa-tv"></i>
+                </span>
+                <span>
+                  HBO
+                </span>
+              </button>
+              <button class="button is-dark is-large is-fullwidth" onclick ="location.href='https://robinhood.com'">
+                <span class="icon">
+                  <i class="fas fa-feather"></i>
+                </span>
+                <span>
+                  Robinhood
+                </span>
+              </button>
+              <button class="button is-dark is-large is-fullwidth" onclick ="location.href='https://smile.amazon.com'">
+                <span class="icon">
+                  <i class="fab fa-amazon"></i>
+                </span>
+                <span>
+                  Amazon
+                </span>
+              </button>
+              <button class="button is-dark is-large is-fullwidth" onclick ="location.href='https://zillow.com'">
+                <span class="icon">
+                  <i class="fas fa-laptop-house"></i>
+                </span>
+                <span>
+                  Zillow
+                </span>
+              </button>
+            </div>
           </div>
-        </div>
-        <div class="tile is-child">
         </div>
   		</div>
   	</div>
